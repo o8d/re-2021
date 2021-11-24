@@ -42,8 +42,8 @@
     "uniqCompNum": 4,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/o8d-class-2-11-194x192-128x127.png",
-    "mbrsiteDomain": "pwzik3jift",
+    "favicon": "@PROJECT_PATH@/assets/images/o8d-class-2-11-194x192-128x127_1.png",
+    "mbrsiteDomain": "75k4eoium3",
     "canonical-url": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -56,7 +56,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "2021-蝸牛巷慢動作",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
