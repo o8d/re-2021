@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-11-24_1141",
+    "name": "2021-蝸牛巷慢動作",
     "currentPage": "index.html",
     "theme": {
       "name": "antivirusamp",
@@ -23,8 +23,8 @@
         "display7Size": 1.1,
         "display4Font": "Roboto",
         "display4Size": 0.9,
-        "isRoundedButtons": false,
-        "isScrollToTopButton": false,
+        "isRoundedButtons": true,
+        "isScrollToTopButton": true,
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": []
@@ -39,9 +39,18 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "5.5.2",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/o8d-class-2-11-194x192-128x127.png",
+    "mbrsiteDomain": "pwzik3jift",
+    "canonical-url": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
