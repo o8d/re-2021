@@ -1,61 +1,66 @@
 {
   "settings": {
-    "name": "2021-蝸牛巷慢動作",
+    "name": "test",
     "currentPage": "index.html",
     "theme": {
-      "name": "antivirusamp",
-      "title": "AntiVirusAMP",
+      "name": "mobirise5",
+      "title": "Mobirise 5",
       "styling": {
-        "primaryColor": "#003188",
-        "secondaryColor": "#fb5f3d",
-        "successColor": "#0dcd7b",
-        "infoColor": "#8282e7",
-        "warningColor": "#767676",
-        "dangerColor": "#e7f0ff",
-        "mainFont": "Roboto",
-        "display1Font": "Roboto",
-        "display1Size": 4.8,
-        "display2Font": "Roboto",
-        "display2Size": 3.2,
-        "display5Font": "Roboto",
-        "display5Size": 1.7,
-        "display7Font": "Roboto",
-        "display7Size": 1.1,
-        "display4Font": "Roboto",
-        "display4Size": 0.9,
-        "isRoundedButtons": true,
-        "isScrollToTopButton": true,
-        "arrowColor": "#4ea2e3"
-      },
-      "additionalSetColors": []
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "5.2.0",
+    "versionFirst": "5.3.5",
     "siteFonts": [
       {
-        "css": "'Roboto', sans-serif",
-        "name": "Roboto",
-        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 4,
-    "versionPublish": "5.5.2",
-    "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/o8d-class-2-11-194x192-128x127_1.png",
-    "mbrsiteDomain": "75k4eoium3",
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/noun-event-1298108.svg",
+    "mbrsiteDomain": "kgyrh7zl9y",
+    "cssOptimize": false,
+    "lazyLoad": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "pwa-switcher": false,
+    "uniqCompNum": 1,
+    "versionPublish": "5.4.1",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "2021-蝸牛巷慢動作",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -66,69 +71,21 @@
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#fb5f3d"
-            },
-            ".box": {
-              "padding": "1.5rem",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "space-between",
-              "p": {
-                "margin": "0"
-              }
-            },
-            ".box-text": {
-              "width": "100%"
-            },
-            ".iconfont-wrapper": {
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\"",
-              "margin": "auto 0 0 1rem"
-            },
-            ".amp-iconfont": {
-              "width": "~\"@{iconsSize}rem\"",
-              "font-size": "~\"@{iconsSize}rem\"",
-              "color": "@iconColor"
-            },
-            ".box1": {
-              "background": "@primaryColor",
-              "margin-bottom": "2rem"
-            },
-            ".mbr-row": {
-              "justify-content": "space-between"
-            },
-            ".box2": {
-              "box-shadow": "0 0 15px rgba(0, 0, 0, 0.25)"
-            },
-            "amp-img": {
-              "width": "100px",
-              "margin-right": "1rem"
-            },
-            ".box2-link": {
-              "color": "#fb5f3d"
-            },
-            ".box2-text": {
-              "color": "#000000"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             }
           },
-          "_name": "header01",
-          "_sourceTheme": "antivirusamp",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Box 1\" name=\"box1\">\n        <input type=\"checkbox\" title=\"Show Box 2\" name=\"box2\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\" selected=\"\" condition=\"box1\">\n         <input type=\"range\" inline=\"\" title=\"Icon Size\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"box1\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        \n        <div class=\"mbr-row\">\n        <div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 md-pb\">\n            \n             <h1 class=\"mbr-section-title mbr-bold mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">2021<br>彩繪蝸牛再來一次test<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>\n        <h2 class=\"mbr-section-subtitle mbr-regualr mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">Report on the current situation</h2>\n        <p class=\"mbr-fonts-style mbr-regualr mbr-text align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            As of 15 May 2025 10:45 AM</p>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                READ MORE</a></div>\n            \n            </div>\n        \n            \n              <div class=\"mbr-col-lg-4 mbr-col-md-12 mbr-col-sm-12\">\n            <div class=\"box box1\" mbr-if=\"box1\">\n                <div class=\"box-text\">\n             <h3 class=\"box-title mbr-bold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".box-title\">#STAYHOME</h3>\n        <p class=\"mbr-fonts-style box-text mbr-semibold mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".box-text\">Please leave home only when absolutely necessary.</p>\n                    </div>\n                \n                    <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-home mobi-mbri\"></span>\n                   </span>\n            \n            </div>\n            \n            \n                  <div class=\"box box2\" mbr-if=\"box2\">\n                      <div class=\"img-wrap m-auto\">\n                       <amp-img src=\"@PROJECT_PATH@/assets/images/01.jpg\" alt=\"Mobirise\" width=\"16\" height=\"9\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/01.jpg\" alt=\"Mobirise\">\n                </amp-img></div>\n                      <div class=\"box-text\">\n             <h3 class=\"box2-text mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".box2-text\">\n                Report on the current situation of the spread of the virus in the world.</h3>\n        <p class=\"mbr-fonts-style box2-link mbr-regular mbr-white\" mbr-theme-style=\"display-4\" data-app-selector=\".box2-link\">Read More</p>\n                  \n                  </div>\n            \n            </div>\n                  \n                  \n            \n            </div>\n            \n            \n        \n        </div>\n       \n    </div>\n\n</section>",
-          "_cid": "sPEpIWHPrv",
-          "_anchor": "header01-2",
+          "_name": "header3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background11.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>test</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPG7HgvDDH",
+          "_anchor": "header3-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
