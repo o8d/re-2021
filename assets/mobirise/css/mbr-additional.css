@@ -1854,8 +1854,21 @@ a {
     left: -1rem;
   }
 }
-.cid-sR4NxCLwZ0 {
-  background-image: url("../../../assets/images/2021-2-1-2000x1678.jpg");
+.cid-sR5cLN17ht {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sR5cLN17ht .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sR5cLN17ht .row {
+  flex-direction: row-reverse;
+}
+.cid-sR5cLN17ht img {
+  width: 100%;
 }
 .cid-sR4OhG35C4 {
   padding-top: 6rem;
