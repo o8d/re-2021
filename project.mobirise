@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "2021蝸牛再回來",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -60,7 +60,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 61,
+    "uniqCompNum": 69,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true
@@ -604,7 +604,7 @@
           },
           "_name": "slider1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\" selected>\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n        <ol class=\"carousel-indicators\">\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li>\n        </ol>\n        <div class=\"carousel-inner\">\n            \n            <div class=\"carousel-item slider-image item active\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\"><b><a href=\"page5.html#top\" class=\"text-white text-primary\" target=\"_blank\">修復蝸牛</a></b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">習新之餘更要欣賞時間代謝下的塵舊</p>\n                    </div>\n                <a href=\"page5.html\" target=\"false\"></a><a href=\"page5.html\" target=\"true\"></a><a href=\"page5.html\" target=\"false\"></a><a href=\"page5.html\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/11111111-1-1900x1439.jpg\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n            </div>\n            <div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\"><b><a href=\"page2.html#top\" class=\"text-white text-primary\" target=\"_blank\">RE蝸牛再回來</a></b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">有哪些蝸牛</p>\n                    </div>\n                <a href=\"page2.html\" target=\"false\"></a><a href=\"page2.html\" target=\"false\"></a><a href=\"page2.html\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/102743-1477x1108.jpg\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b><a href=\"page3.html#gallery3-14\" class=\"text-white\">街區住民、老職人與他/她們的蝸牛裝置</a></b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">2021</p>\n                    </div>\n                <a href=\"page3.html#gallery3-14\" target=\"false\"></a><a href=\"page3.html#gallery3-14\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/82443277-ccd3-40d7-817e-9609e3a90589-1900x1252.png\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></a></div>\n            </div>\n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Next</span>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1\" group=\"Sliders &amp; Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\" selected=\"\">\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n        <ol class=\"carousel-indicators\">\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li>\n        </ol>\n        <div class=\"carousel-inner\">\n            \n            <div class=\"carousel-item slider-image item active\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\"><b><a href=\"page5.html#top\" class=\"text-white text-primary\" target=\"_blank\">修復蝸牛</a></b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">習新之餘更要欣賞時間代謝下的塵舊</p>\n                    </div>\n                <a href=\"page5.html\" target=\"false\"></a><a href=\"page5.html\" target=\"true\"></a><a href=\"page5.html\" target=\"false\"></a><a href=\"page5.html\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/-1-1900x1439.jpg\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n            </div>\n            <div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\"><b><a href=\"page2.html#top\" class=\"text-white text-primary\" target=\"_blank\">RE蝸牛再回來</a></b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">有哪些蝸牛</p>\n                    </div>\n                <a href=\"page2.html\" target=\"false\"></a><a href=\"page2.html\" target=\"false\"></a><a href=\"page2.html\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/102743-1477x1108.jpg\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    \n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b><a href=\"page3.html#gallery3-14\" class=\"text-white\">街區住民、老職人與他/她們的蝸牛裝置</a></b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">2021</p>\n                    </div>\n                <a href=\"page3.html#gallery3-14\" target=\"false\"></a><a href=\"page3.html#gallery3-14\" target=\"false\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/82443277-ccd3-40d7-817e-9609e3a90589-1900x1252.png\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></a></div>\n            </div>\n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Next</span>\n        </a>\n    </div>\n</section>",
           "_cid": "sRdv5XXO1y",
           "_anchor": "slider1-1k",
           "_protectedParams": [],
@@ -2508,7 +2508,59 @@
           },
           "_name": "team2",
           "_sourceTheme": "masterclassm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImage\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\">\n        <input type=\"checkbox\" title=\"Ico\" name=\"showIco\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/masterclassm5/components/_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"wrapp\">\n            <div class=\"row justify-content-center\">\n                <div class=\"col-12\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>繪製者</b></h3>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features5.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white\">\n                            <p class=\"mbr-text mbr-fonts-style text-center mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/timeline-20211202-152135-116x137.jpeg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>劉彥均<br>LIU,YEN-CHUN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>畢業於國立台南藝術大學造形藝術研究所。 習慣的創作方式，主要來自對於日常生活的觀察。由於感知的敏銳，擅長藉由經驗與記憶為本，透過連結、轉譯各種所閱讀及接收的資訊，解決自己對許多狀態及現象的提問，也因此在創作媒材上沒有固定的形式。從2015年起時常佇留當時還不是蝸牛巷的蝸牛巷，同時為「蝸牛巷讀本」的寫手之一。</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>1\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features6.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/118772804-1433265617063136-1902883172152123280-n-116x116.jpg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>黃雉原<br>HUANG,ZHI-YUAN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>根落老府城的艋舺郎，傳統寺廟彩繪藝師，兼人類學家。時時刻刻觀察著街仔頭、巷仔內的各種趣味代，最愛偷聽八卦，試著理解府城人頭殼內在想什麼。未來希望寫本跟信仰、傳藝、鬼怪流言有關的民族誌。<br>台北藝術大學美術系<br>台大人類學研究所博士班<br>現職 蓬萊齋藝術創作室</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>2\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features7.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 m-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/27d932f3-c1f9-4daa-8498-7bfcab18dcff-1-116x87.jpeg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>陳怡妏<br>CHEN,YI-WEN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\">\n                                        <br>從2016年開始參與台南大宮町藝術浸潤計畫 《蝸牛巷慢慢走》社區營造-美術設計與執行隊員，2012年移居台南至目前成為蝸牛巷住民邁入第十年。 工作專業培育以美術，擅長敦親睦鄰並適度讓自己保持貧窮。擁有一台手工攤車 「綠豆皮」，執行“台南的粉角綠豆湯之味”任務，並且落實”勞動獲得自由”與創作合而為一的小生意。必要時沉迷於設計工作，是靈活有趣低效率的偏向。繪圖、手工、裝置、影片等製作尚可，但技能的通道隨時都在開拓，各項雖不能如大師專精，卻飽含技術上解決問題的熱忱與學習力。另外在意時間結構。培育於復興美工、高雄大學。\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n            </div>\n        </div>\n\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImage\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\">\n        <input type=\"checkbox\" title=\"Ico\" name=\"showIco\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"wrapp\">\n            <div class=\"row justify-content-center\">\n                <div class=\"col-12\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>造型復刻</b></h3>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@PROJECT_PATH@/assets/images/features5.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white\">\n                            <p class=\"mbr-text mbr-fonts-style text-center mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/yi-shu-jia-zhang-gen-yao-ken-yao-chang-85x85.jpg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>張根耀<br>KEN-YAO CHANG</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>一九九二年出生於台北，現創作和生活於台南。創作涉及雕塑與現地裝置等形式，早期關注於空間與環境之間曖昧難辨的場域，其衍生出雕塑這種具有很現實性的量體與重量，就像是在展覽中當你在退後看一幅畫的時候會碰撞到的東⻄，既融入卻又突⺎，後將雕塑的固著性轉向現地裝置的變動思考，近期則將空間中的時序；歷史，試圖藉由影像空間與現實空間的交錯、錯位，延展出另一層介面的可能性。<br>台北藝術大學美術系<br>國立台南藝術大學造形藝術研究所<br></p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>1\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@PROJECT_PATH@/assets/images/features6.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/%E6%88%AA%E5%9C%96%202021-12-12%20%E4%B8%8A%E5%8D%8812.33.42-116x109.png\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>李罐君<br>LI,GUAN-JUN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>根落老府城的艋舺郎，傳統寺廟彩繪藝師，兼人類學家。時時刻刻觀察著街仔頭、巷仔內的各種趣味代，最愛偷聽八卦，試著理解府城人頭殼內在想什麼。未來希望寫本跟信仰、傳藝、鬼怪流言有關的民族誌。<br>台北藝術大學美術系<br>台大人類學研究所博士班<br>現職 蓬萊齋藝術創作室</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>2\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@PROJECT_PATH@/assets/images/features7.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 m-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/yi-shu-jia-zhang-gen-yao-ken-yao-chang-85x85.jpg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>張根耀<br>KEN-YAO CHANG</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\">\n                                        <br>一九九二年出生於台北，現創作和生活於台南。創作涉及雕塑與現地裝置等形式，早期關注於空間與環境之間曖昧難辨的場域，其衍生出雕塑這種具有很現實性的量體與重量，就像是在展覽中當你在退後看一幅畫的時候會碰撞到的東⻄，既融入卻又突⺎，後將雕塑的固著性轉向現地裝置的變動思考，近期則將空間中的時序；歷史，試圖藉由影像空間與現實空間的交錯、錯位，延展出另一層介面的可能性。\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n            </div>\n        </div>\n\n    </div>\n</section>",
+          "_anchor": "team2-1u",
+          "_isUserblock": true,
+          "_cid": "sSIn5DT2pH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".wrapp": {
+              "@media (max-width: 991px)": {
+                "padding": "0"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem 6rem"
+              }
+            },
+            ".team-card": {
+              "margin-bottom": "2rem",
+              "transition": "all 0.3s",
+              "&:hover": {
+                "transform": "translateY(-10px)"
+              }
+            },
+            ".card-wrap": {
+              "background": "@cardBg",
+              "border-radius": "10px",
+              ".image-wrap img": {
+                "width": "100%",
+                "border-radius": "10px 10px 0 0"
+              },
+              ".content-wrap": {
+                "padding": "1rem"
+              }
+            },
+            ".image-wrapper img": {
+              "border": "2px solid #51add0"
+            }
+          },
+          "_name": "team2",
+          "_sourceTheme": "masterclassm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"team2\" group=\"Team\" data-bg-video=\"{{bg.type == bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImage\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\">\n        <input type=\"checkbox\" title=\"Ico\" name=\"showIco\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/masterclassm5/components/_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"wrapp\">\n            <div class=\"row justify-content-center\">\n                <div class=\"col-12\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>繪製</b></h3>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features5.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white\">\n                            <p class=\"mbr-text mbr-fonts-style text-center mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-12\">\n                            <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/timeline-20211202-152135-116x137.jpeg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>劉彥均<br>LIU,YEN-CHUN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>畢業於國立台南藝術大學造形藝術研究所。 習慣的創作方式，主要來自對於日常生活的觀察。由於感知的敏銳，擅長藉由經驗與記憶為本，透過連結、轉譯各種所閱讀及接收的資訊，解決自己對許多狀態及現象的提問，也因此在創作媒材上沒有固定的形式。從2015年起時常佇留當時還不是蝸牛巷的蝸牛巷，同時為「蝸牛巷讀本」的寫手之一。</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>1\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features6.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 mb-5 mb-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/118772804-1433265617063136-1902883172152123280-n-116x116.jpg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>黃雉原<br>HUANG,ZHI-YUAN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\"><br>根落老府城的艋舺郎，傳統寺廟彩繪藝師，兼人類學家。時時刻刻觀察著街仔頭、巷仔內的各種趣味代，最愛偷聽八卦，試著理解府城人頭殼內在想什麼。未來希望寫本跟信仰、傳藝、鬼怪流言有關的民族誌。<br>台北藝術大學美術系<br>台大人類學研究所博士班<br>現職 蓬萊齋藝術創作室</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n                <div class=\"col-sm-6 col-lg-4\" mbr-if=\"cardsAmount>2\">\n                    <div class=\"card-wrap mb-3\">\n                        <div class=\"image-wrap\" mbr-if=\"showImage\">\n                            <img src=\"@ADDONS_PATH@/masterclassm5/components/_images/features/features7.jpg\">\n                        </div>\n                        <div class=\"content-wrap text-white text-center\">\n                            <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">\n                                Feedback\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"wrapper pt-2 m-lg-0\">\n                        <div class=\"row\">\n                            <div class=\"col-12\">\n                                <div class=\"row\">\n                                    <div class=\"col-3\" mbr-if=\"showIco\">\n                                        <div class=\"image-wrapper\">\n                                            <img src=\"@PROJECT_PATH@/assets/images/27d932f3-c1f9-4daa-8498-7bfcab18dcff-1-116x87.jpeg\" alt=\"Mobirise\" class=\"rounded-circle bc1\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-9\">\n                                        <p class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showName\" data-app-selector=\".card-title, .social-row\"><br>陳怡妏<br>CHEN,YI-WEN</p>\n                                        <p class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                                            Student</p>\n                                    </div>\n                                </div>\n                                <div class=\"col-12\">\n                                    <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\">\n                                        <br>從2016年開始參與台南大宮町藝術浸潤計畫 《蝸牛巷慢慢走》社區營造-美術設計與執行隊員，2012年移居台南至目前成為蝸牛巷住民邁入第十年。 工作專業培育以美術，擅長敦親睦鄰並適度讓自己保持貧窮。擁有一台手工攤車 「綠豆皮」，執行“台南的粉角綠豆湯之味”任務，並且落實”勞動獲得自由”與創作合而為一的小生意。必要時沉迷於設計工作，是靈活有趣低效率的偏向。繪圖、手工、裝置、影片等製作尚可，但技能的通道隨時都在開拓，各項雖不能如大師專精，卻飽含技術上解決問題的熱忱與學習力。另外在意時間結構。培育於復興美工、高雄大學。\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n\n            </div>\n        </div>\n\n    </div>\n</section>",
           "_cid": "sR5dWB58NS",
           "_anchor": "team2-13",
           "_protectedParams": [],
@@ -3646,10 +3698,334 @@
           },
           "_name": "image3",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-2576x1952.jpg\" alt>\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\"></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/-1-2216x1679.jpg\" alt>\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\"></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "image3-1d",
           "_isUserblock": true,
           "_cid": "sRdd3tDdZW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            ".carousel": {
+              "@media (min-width: 992px)": {
+                "height": "940px"
+              },
+              "@media (max-width: 768px)": {
+                "height": "400px"
+              },
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "-o-object-fit": "cover",
+                "object-fit": "cover"
+              },
+              ".carousel-item, .carousel-inner": {
+                "height": "100%"
+              },
+              "overflow": "hidden"
+            },
+            "background-color": "@bgColor",
+            ".carousel-caption": {
+              "top": "50%",
+              "right": "0",
+              "bottom": "auto",
+              "left": "0",
+              "display": "-webkit-flex",
+              "align-items": "center",
+              "transform": "translateY(-50%)",
+              "-webkit-align-items": "center"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".carousel-control:hover": {
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "text-align": "start",
+              "width": "100%"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".row": {
+              "position": "relative"
+            },
+            ".container": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "color": "@arrowsColor",
+              "top": "50%",
+              "width": "100px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "40px",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "opacity": ".8",
+              "& when not (@arrows)": {
+                ".mbri-left, .mbri-right": {
+                  "display": "none"
+                }
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  ".mbri-left, .mbri-right": {
+                    "display": "none"
+                  }
+                }
+              },
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "70%",
+                "&.carousel-control-prev": {
+                  "margin-left": ".5rem"
+                },
+                "&.carousel-control-next": {
+                  "margin-right": ".5rem"
+                }
+              }
+            },
+            ".buttons-wrap": {
+              "justify-content": "start"
+            },
+            ".container-fluid": {
+              "padding-left": "0",
+              "padding-right": "0"
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-caption": {
+                "padding-left": "15px",
+                "padding-right": "15px"
+              },
+              ".buttons-wrap": {
+                "flex-wrap": "wrap",
+                "flex-direction": "column",
+                ".mbr-section-btn": {
+                  "margin-bottom": "10px"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".wrap": {
+              "z-index": "9999"
+            },
+            ".btnHeader": {
+              "font-family": "'Cormorant Garamond'",
+              "position": "absolute",
+              "width": "140px",
+              "height": "140px",
+              "border-radius": "50%",
+              "cursor": "pointer",
+              "left": "50%",
+              "top": "70%",
+              "border": "1px solid @borderColor",
+              "justify-content": "center",
+              "transition": "border 0.5s ease",
+              "transform": "translateX(-50%)",
+              "@media (max-width: 991px)": {},
+              "&::before, &::after": {
+                "content": "''",
+                "width": "102%",
+                "height": "102%",
+                "position": "absolute",
+                "border-radius": "50%",
+                "top": "-1px",
+                "left": "-1%"
+              },
+              "&::before": {
+                "border": "1px solid transparent",
+                "transition": "border-top-color 0.1s linear, border-right-color 0.1s linear 0.1s, border-bottom-color 0.1s linear 0.2s"
+              },
+              "&:hover::before": {
+                "border-top-color": "@animationColor",
+                "border-right-color": "@animationColor",
+                "border-bottom-color": "@animationColor"
+              },
+              "&::after": {
+                "border": "0 solid transparent",
+                "transition": "transform 0.2s linear 0s, border-left-width 0s linear 0.3s"
+              },
+              "&:hover::after": {
+                "border-top": "1px solid @animationColor",
+                "border-left-color": "@animationColor",
+                "border-left-width": "1px",
+                "bordersborder-right-width": "1px",
+                "borderstransform": "rotate(270deg)"
+              }
+            },
+            ".img": {
+              "position": "relative"
+            }
+          },
+          "_name": "slider5",
+          "_sourceTheme": "wellnessm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider5\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t<input type=\"id\" name=\"sliderId\">\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n\t\t<header>Slide</header>\n\t\t<input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked condition=\"showCaption\">\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#ffffff\" condition=\"arrows\">\n\t\t<header condition=\"showLink && showCaption\">Link</header>\n\t\t<input type=\"checkbox\" title=\"Link\" name=\"showLink\" condition=\"showCaption\" checked>\n\t\t<input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#9a948d\" condition=\"showLink && showCaption\">\n\t\t<input type=\"color\" title=\"Animation\" name=\"animationColor\" value=\"#ffffff\" condition=\"showLink && showCaption\">\n\t\t<header>Images</header>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#262221\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\" selected>\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"carousel-item slider-image item active\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"carousel-caption justify-content-center\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center w-100\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-7 wrap\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white w-100\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">街區住民、老職人與他/她們的蝸牛裝置</h1>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"div\" mbr-if=\"showLink\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style btnHeader d-flex align-items-center\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"page3.html#gallery3-14\" class=\"text-white link text-primary\" data-app-selector=\".link\">交遞記錄</a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t<a href=\"page3.html#gallery3-14\" target=\"true\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/s-79552519-1286x935.png\" data-slide-to=\"0\" data-bs-slide-to=\"0\"></a></div>\n\t\t\t\t</div><div class=\"carousel-item slider-image item\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"carousel-caption justify-content-center\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center w-100\">\n\t\t\t\t\t\t\t\t<div class=\"col-12 col-md-7 wrap\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white w-100\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">街區住民、老職人與他/她們的蝸牛裝置</h1>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"div\" mbr-if=\"showLink\">\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style btnHeader d-flex align-items-center\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"page3.html#gallery3-14\" class=\"text-white link text-primary\" data-app-selector=\".link\">交遞記錄</a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t<a href=\"page3.html#gallery3-14\" target=\"true\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/s-79552519-1286x1001.png\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n\t\t\t\t<span class=\"mbri-left\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t\t</a>\n\t\t\t<a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n\t\t\t\t<span class=\"mbri-right\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</section>",
+          "_anchor": "slider5-1p",
+          "_isUserblock": true,
+          "_cid": "sSIgrnPlln",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 100px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 100px)",
+                  "object-fit": "contain"
+                }
+              }
+            },
+            "@media (max-width: 991px) and (min-width: 768px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 65px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 65px)",
+                  "object-fit": "contain"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 55px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 55px)",
+                  "object-fit": "contain"
+                }
+              },
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".carousel, .carousel-inner": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            ".carousel-caption": {
+              "bottom": "40px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              }
+            },
+            "P": {
+              "color": "#fafafa"
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider2\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Height\" name=\"carouselHeight\" min=\"4\" max=\"12\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\" condition=\"!fullWidth\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlaySlide\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlaySlideColor\" value=\"#232323\" condition=\"overlaySlide\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlaySlideOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlaySlide\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\" selected>\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\" mbr-class=\"{'col-lg-12':fullWidth}\">\n                <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlaySlide\" mbr-style=\"{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}\">\n                    </div>\n                    <ol class=\"carousel-indicators\">\n                        <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n                        <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n                        \n                    </ol>\n                    <div class=\"carousel-inner\">\n                        \n                        <div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/s-79552519-1286x935.png\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>2021/1225/第一堂</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">-單張記錄-02</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/s-79552519-1286x1001.png\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>2021/1225/第二堂</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">單張記錄-02</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                    <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden\">Previous</span>\n                    </a>\n                    <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sSIjafDvRI",
+          "_anchor": "slider2-1t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3711,7 +4087,7 @@
           },
           "_name": "content13",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Content\" class=\"content13\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <select title=\"Amount\" name=\"colAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\" mbr-if=\"showTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>蝸牛修復慢慢學</b><br><b>當舊蝸牛老去、壞去，迎接而來的新蝸牛的身分意義更不相同。</b>\n                </h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"row justify-content-center\">\n                    <div class=\"col-12 col-lg-6\">\n                        <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                            <li><b>地點</b><br>愛意特點心店<br>＋台南市中西區民生路一段157巷41-1號</li>\n                            <li><b>參加方式</b><br><a href=\"https://www.accupass.com/event/2111300603098961474500\" class=\"text-primary\" target=\"_blank\">線上報名</a></li>\n                            <li><b>課程須知</b><br>費用 ：無<br>✓含木蝸牛材料、蠟筆一盒<br></li><li><b>活動注意事項<br></b>有做指甲的媽媽上完課需要護甲唷</li><li><b>活動對象<br></b>不限、親子參加也可以</li>\n                        </ul>\n                    </div>\n                    <div class=\"col-12 col-lg-6\" mbr-if=\"colAmount > 1\">\n                        <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                            <li><b>日期時間\n                                </b><br>2021/12/25 (星期六)&nbsp;<br>【場次一】14:00-15:00<br>【場次二】16:30-17:00</li>\n                            <li><b>講師<br></b>陳怡妏</li><li><b>自備工具</b><br>家中廢棄的小零件ex：不要的湯匙、螺絲、棉花棒、隨手可得的繪圖材料，ex：用過的蠟筆、一些快沒水的彩色筆、沒在用又覺得丟了可惜的文具，也可自備習慣使用的彩繪工具，如：廣告顏料壓克力、彩色筆等\b。</li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Content\" class=\"content13\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <select title=\"Amount\" name=\"colAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\" mbr-if=\"showTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>蝸牛修復慢慢學</b><br><b>當舊蝸牛老去、壞去，迎接而來的新蝸牛的身分意義更不相同。</b>\n                </h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"row justify-content-center\">\n                    <div class=\"col-12 col-lg-6\">\n                        <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                            <li><b>地點</b><br>愛意特點心店<br>＋台南市中西區民生路一段157巷41-1號</li>\n                            <li><b>參加方式</b><br><a href=\"https://www.accupass.com/event/2111300603098961474500\" class=\"text-primary\" target=\"_blank\">線上報名</a>(已結束)</li>\n                            <li><b>課程須知</b><br>費用 ：無<br>✓含木蝸牛材料、蠟筆一盒<br></li><li><b>活動注意事項<br></b>有做指甲的媽媽上完課需要護甲唷</li><li><b>活動對象<br></b>不限、親子參加也可以</li>\n                        </ul>\n                    </div>\n                    <div class=\"col-12 col-lg-6\" mbr-if=\"colAmount > 1\">\n                        <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                            <li><b>日期時間\n                                </b><br>2021/12/25 (星期六)&nbsp;<br>【場次一】14:00-15:00<br>【場次二】16:00-17:00</li>\n                            <li><b>講師<br></b>陳怡妏</li><li><b>自備工具</b><br>家中廢棄的小零件ex：不要的湯匙、螺絲、棉花棒、隨手可得的繪圖材料，ex：用過的蠟筆、一些快沒水的彩色筆、沒在用又覺得丟了可惜的文具，也可自備習慣使用的彩繪工具，如：廣告顏料壓克力、彩色筆等\b。</li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sRde1GM5Hl",
           "_anchor": "content13-1e",
           "_protectedParams": [],
@@ -3740,6 +4116,67 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "flex-wrap": "wrap",
+              "border-bottom": "1px solid @activeColor"
+            },
+            ".nav-item": {
+              "@media (max-width: 767px)": {
+                "width": "100%",
+                "margin": "0"
+              }
+            },
+            ".nav-tabs .nav-link": {
+              "transition": "all .5s",
+              "border": "none",
+              "border-bottom": "3px solid transparent",
+              "border-radius": "0 !important",
+              "&:not(.active)": {
+                "color": "@tabsColor"
+              }
+            },
+            ".nav-tabs .nav-item": {
+              "margin-right": "1.5rem"
+            },
+            ".nav-link, .nav-link.active": {
+              "padding": "1rem 0",
+              "background-color": "transparent"
+            },
+            ".nav-tabs .nav-link.active": {
+              "color": "@activeColor",
+              "border-bottom": "3px solid @activeColor"
+            },
+            "H4": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_name": "tabs1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"tabs content18\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Tabs</header>\n        <select title=\"Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"color\" name=\"tabsColor\" title=\"Color\" value=\"#000000\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle || showSubtitle\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    <b>Tabs</b></h3>\n                <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Tabs Subtitle</h4>\n            </div>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <ul class=\"nav nav-tabs mb-4\" role=\"tablist\">\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item first mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Programming</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Research</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Development</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Phases</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Design</b>\n                        </a>\n                    </li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab6\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Architecture</b>\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobirise is a free offline app for Windows and Mac to easily create small/medium\n                                    websites, landing pages, online resumes and portfolios. 3100+ beautiful website\n                                    blocks, templates and themes help you to start easily.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobile web traffic overtook desktop one in 2016 and will only grow, and that's why\n                                    it's important to create websites that look good on all devices. No special actions\n                                    required, all sites you make with the Builder are mobile-friendly. You don't have to\n                                    create a special mobile version of your website, it will adapt automagically. </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobirise is an easy and simple free website builder - just drop site elements to\n                                    your page, add content and style it to look the way you like.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sSIinDblVv",
+          "_anchor": "tabs1-1r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
