@@ -2110,6 +2110,42 @@ a {
 .cid-sR5dWB58NS .image-wrapper img {
   border: 2px solid #51add0;
 }
+.cid-sSIEMYbMa2 {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background: #fafafa;
+}
+@media (max-width: 991px) {
+  .cid-sSIEMYbMa2 .wrapp {
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sSIEMYbMa2 .wrapp {
+    padding: 4rem 6rem;
+  }
+}
+.cid-sSIEMYbMa2 .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.cid-sSIEMYbMa2 .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-sSIEMYbMa2 .card-wrap {
+  background: #fafafa;
+  border-radius: 10px;
+}
+.cid-sSIEMYbMa2 .card-wrap .image-wrap img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.cid-sSIEMYbMa2 .card-wrap .content-wrap {
+  padding: 1rem;
+}
+.cid-sSIEMYbMa2 .image-wrapper img {
+  border: 2px solid #51add0;
+}
 .cid-sRcWIyiWNe {
   padding-top: 3rem;
   padding-bottom: 3rem;
